@@ -1,0 +1,61 @@
+.note-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+  }
+  
+  .note-item h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .note-item p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .note-item button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .note-item .edit-btn {
+    background-color: #4CAF50;
+  }
+  
+  .note-item .delete-btn {
+    background-color: #FF5733;
+  }
+  
+  .note-item .edit-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .note-item .delete-btn:hover {
+    background-color: #C0392B;
+  }
+  
+  .note-item input,
+  .note-item textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .note-item button {
+    background-color: #4CAF50;
+  }
+  
+  .note-item button:hover {
+    background-color: #45a049;
+  }
+  

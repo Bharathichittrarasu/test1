@@ -1,0 +1,115 @@
+/* General Layout */
+.notes-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .notes-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .create-note-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .create-note-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Notes Grid */
+  .notes-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .notes-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .notes-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  /* Note Card */
+  .note-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .note-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .note-card p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .note-actions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .edit-btn,
+  .delete-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+  }
+  
+  .edit-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .delete-btn:hover {
+    background-color: #e53935;
+  }
+  
+  /* Create Note Form */
+  .create-note-form input,
+  .create-note-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .create-note-form button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .create-note-form button:hover {
+    background-color: #45a049;
+  }
+  
